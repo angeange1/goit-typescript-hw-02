@@ -2,7 +2,7 @@ import Modal from 'react-modal';
 
 import { ImageModalProps } from './ImageModal.types';
 
-const customStyles = {
+const customStyles: Modal.Styles = {
 overlay: {
     backgroundColor: "rgba(0, 0, 0, 0.8)",
   },
